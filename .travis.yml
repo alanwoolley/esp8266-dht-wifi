@@ -10,6 +10,13 @@ cache:
 install:
     - pip install -U platformio
     - platformio lib install "PubSubClient"
-
+    - platformio lib install "DHT sensor library"
+    - platformio lib install "ArduinoJSON"
+    - platformio lib install "ESP8266WebServer"
+    - platformio lib install "ESP8266WiFi"
+    - platformio lib install "WifiManager"
+    - platformio lib install "DNSServer"
+    - platformio lib install "DoubleResetDetector"
+    
 script:
     - platformio run
